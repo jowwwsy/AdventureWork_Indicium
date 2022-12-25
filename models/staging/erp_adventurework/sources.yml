@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: erp
+    description: banco replicad adventurework
+    schema: adventurework_etl
+    tables:
+      - name: salesorderdetail
+        description:  tabela de
+        columns:
+          name: salesorderdetailid
+          description: Chave Primaria da Tabela Order Detail
+          tests: 
+            - unique
+            - not null
+
+      - name: customer
+        description:  tabela de Clientes
+      
+      - name: store
+        description:  tabela de Loja    

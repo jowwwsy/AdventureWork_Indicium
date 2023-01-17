@@ -19,3 +19,5 @@ sources:
       
       - name: store
         description:  tabela de Loja    
+      - name: products
+        description:  tabela de produtos    

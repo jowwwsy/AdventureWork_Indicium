@@ -3,7 +3,7 @@
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'adventure_work'
-version: '1.3.1'
+version: '1.0.0'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
@@ -33,9 +33,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   adventure_work:
-    # Applies to all files under models/example/
     staging:
       materialized: view
-
     mart:
       materialized: table

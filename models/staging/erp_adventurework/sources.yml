@@ -17,4 +17,8 @@ sources:
         description:  tabela de Loja    
       
       - name: creditcard
-        description:  tabela de cartoes de credito  
+        description:  tabela de cartoes de credito
+      - name: product
+        description:  tabela de produto
+      - name: salesterritory
+        description:  tabela de territorio de venda
